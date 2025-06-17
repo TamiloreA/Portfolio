@@ -1,0 +1,41 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    /* border: 1px solid #e5e5e5; */
+    width: 60%;
+    
+  }
+  
+  .testimonial {
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  .date {
+    font-weight: 300;
+    color: #777;
+    margin-bottom: 0.5rem;
+    font-family: Mukta,sans-serif;
+    font-size: 0.9rem;
+  }
+  
+  .text {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: Mukta,sans-serif;
+  }
+  
+  .company {
+    font-weight: 600;
+    color: #111;
+  }
+
+  span{
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  

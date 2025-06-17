@@ -1,11 +1,22 @@
 import styles from './App.module.css';
+import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import ResumeIntro from './components/ResumeIntro';
+import TimelineSection from './components/TimelineSection';
+
+
 
 function App() {
   return (
-    <div className={styles.app}>
-      <Hero />
-    </div>
+    <>
+      <Navbar />
+      <section id="resume">
+        <ResumeIntro />
+      </section>
+
+      {/* Timeline Section */}
+      <TimelineSection />
+    </>
   );
 }
 
