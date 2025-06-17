@@ -65,3 +65,24 @@
     white-space: nowrap;
   }
   
+  @media (max-width: 768px) {
+    .card {
+      padding: 1rem;
+    }
+  
+    .title {
+      font-size: 1rem;
+    }
+  
+    .role,
+    .duration,
+    .company {
+      font-size: 0.85rem;
+    }
+  
+    .logo {
+      width: 28px;
+      height: 28px;
+    }
+  }
+  

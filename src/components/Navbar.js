@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from './Navbar.module.css';
 import avatar from '../assets/img20.png';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [darkMode, setDarkMode] = useState(false);
@@ -22,9 +23,9 @@ function Navbar() {
         {/* Center - Links */}
         <div className={styles.center}>
           <div className={styles.navbar}>
-            <a href="#resume">Resume</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
+          <Link to="/">Resume</Link>
+            <Link to="/about">About</Link>
+            <Link to="/projects">Projects</Link>
           </div>
         </div>
 

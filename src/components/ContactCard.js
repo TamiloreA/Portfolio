@@ -8,7 +8,7 @@ function ContactCard() {
       <p className={styles.text}>
         Just can't get enough of me? Send me an email and I'll get back to you as soon as possible!
       </p>
-      <a href='' className={styles.email}>tamiloreakinsola@gmail.com</a>
+      <a href='mailto:tamiloreakinsola@gmail.com' className={styles.email}>tamiloreakinsola@gmail.com</a>
     </div>
   );
 }
