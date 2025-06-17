@@ -31,6 +31,7 @@
   @media (max-width: 768px) {
     .card {
       padding: 1rem;
+      height: auto;
     }
   
     .title {
