@@ -30,18 +30,20 @@
   }
   
   .title {
-    font-size: 1.9rem;
+    font-size: 3rem;
     font-weight: 700;
     color: #111;
-    line-height: 1.4;
-    max-width: 700px;
+    line-height: 1;
+    /* max-width: 700px; */
+    width: 75%;
   }
   
   .bio {
     color: #444;
-    font-size: 0.97rem;
+    font-size: 1.125rem;
     line-height: 1.65;
-    max-width: 650px;
+    /* max-width: 650px; */
+    width: 80%;
   }
   
   .socials {

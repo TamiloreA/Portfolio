@@ -16,8 +16,7 @@ function ResumeIntro() {
           </h1>
 
           <p className={styles.bio}>
-            Hello, I'm Tammy, a full-stack developer passionate about building beautiful and functional web apps. 
-            I’m also a musician, photographer, and gamer. I love solving real-world problems through code and creativity.
+          Hello, I'm Tamilore, an experienced full-stack developer passionate about crafting beautiful and functional web applications. Outside of coding, I'm also a musician (piano and guitar), photographer, and amateur gamer. With a diverse skill set and a drive for creativity, I excel at delivering innovative solutions and impactful experiences in the digital realm.
           </p>
 
           <div className={styles.socials}>
